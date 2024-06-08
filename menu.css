@@ -1,0 +1,137 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background:url('images/fond.jpg') no-repeat ;
+    background-size: 300% 200%;
+
+}
+
+.menu{
+    height: 100vh;
+    position: relative;
+
+}
+
+.titre{
+    position: relative;
+    top: 20vh;
+    font-family: 'Brush Script MT', cursive,Georgia, serif;
+    font-size: 20px;
+}
+
+.choix{
+    position: relative;
+    top: 35vh;
+    height: 250px;
+    padding: 30px;
+    background:url('images/menu_fond.png') no-repeat ;
+    background-size: 100% 100%;
+}
+
+.choix > p{
+    position: relative;
+    font-family: 'Brush Script MT', cursive,Georgia, serif;
+    font-size: 20px;
+    bottom: 83px;
+    padding: 23px;
+    border-radius: 20px;
+
+}
+
+.choix > img{
+    position: relative;
+    height: 80px;
+    width: 270px;
+}
+
+.choix > p:hover{
+    box-shadow: 0px 0px 20px  rgba(255, 255, 255, 0.637);
+}
+
+.partie{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.493);
+    margin: 10px;
+    border-radius: 5px;
+}
+.icon{
+    height: 40px;
+    width: 40px;
+}
+
+.partie:hover{
+    box-shadow: 0px 0px 10px  rgb(26, 25, 25);
+}
+
+.trigger{
+    position: relative;
+    left:10%;
+    top:20px;
+    width: 80%;
+    z-index: 50;
+}
+
+.titre > p{
+    font-family: 'Brush Script MT', cursive,Georgia, serif;
+    font-size: 40px;
+}
+
+#popup{
+    display: none;
+    position: absolute;
+    top: 70px;
+    height: 150px;
+    width: 500px;
+    background:url('images/deck.png') no-repeat ;
+    background-size: 100% 100%;
+    z-index: 100;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'Brush Script MT', cursive,Georgia, serif;
+    font-size: 40px;
+}
+
+#quitter{
+    position: absolute;
+    bottom: -10px;
+    right: 55px;
+    z-index: 100;
+
+}
+
+#quitter > img{
+    height: 40px;
+    width: 90px;
+}
+
+#quitter > p{
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+    font-family: 'Brush Script MT', cursive,Georgia, serif;
+    font-size: 20px;
+}
+
+#quitterbutton{
+    position: relative;
+    bottom: 72px;
+    height: 38px;
+    width: 90px;   
+    z-index: 100;
+}
+
+#quitterbutton:hover{
+    box-shadow: 0px 0px 25px  rgb(255, 0, 0);
+    border-radius: 20%;
+}
